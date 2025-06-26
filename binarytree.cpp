@@ -21,3 +21,4 @@ public:
 class BinaryTree
 {
 public:
+    Node *ROOT; //pointer to the root
