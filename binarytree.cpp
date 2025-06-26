@@ -43,3 +43,10 @@ public:
             currentNode = currentNode->rightchild;
         }
     }
+
+    void insert()
+    {
+        //This function inserts a new node
+        int x;
+        cout << "Masukka nilai; ";
+        cin >> x;
