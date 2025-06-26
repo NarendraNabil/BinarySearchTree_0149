@@ -22,3 +22,5 @@ class BinaryTree
 {
 public:
     Node *ROOT; //pointer to the root
+
+    BinaryTree()//constructor for the binary tree
