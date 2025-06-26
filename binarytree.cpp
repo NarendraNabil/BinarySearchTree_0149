@@ -66,3 +66,7 @@ public:
         Node *currentNode = nullptr;
         search(x, parent, currentNode);
 
+        //step 5: If parent is NULL (Tree is empty)
+        if (parent == nullptr)
+        {
+ 
