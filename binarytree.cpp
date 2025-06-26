@@ -50,3 +50,7 @@ public:
         int x;
         cout << "Masukka nilai; ";
         cin >> x;
+
+        //step 1: Allocate memory for the new node
+        Node *newNode = new Node();
+
